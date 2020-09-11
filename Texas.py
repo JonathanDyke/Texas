@@ -251,11 +251,11 @@ def get_winner(current_round_players, cards, chips_pot, active_players):
                 key=len)
                 if len(val) >= 5:
                     if 14 in val:
-                        max_score = 10 # Royal Flush score
+                        max_score = 9 # Royal Flush score
                     else:
-                        max_score = 8 + (i * (1/14)) # Straight Flush score
+                        max_score = 8.5 # Straight Flush score
                 else:
-                    score = 5 + (i * (1/14)) # Flush
+                    score = 5.5 # Flush
                     if score >= max_score:
                         max_score = score
         for i, j in zip(seen_numbers.keys(), seen_numbers.values()):
