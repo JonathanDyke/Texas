@@ -1,6 +1,6 @@
 # Texas
 
-Texas is a simulation of the poker game Texas Hold'em, created as part of the preparation for the MSc Speech and Language Processing at The University of Edinburgh.
+Texas is a Python simulation of the poker game Texas Hold'em, created as part of the preparation for the MSc Speech and Language Processing at The University of Edinburgh.
 
 ## Running the script
 
